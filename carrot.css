@@ -3,6 +3,49 @@
   padding: 0;
 }
 
+#jsh {
+  display: flex;
+  align-items: center;
+  background-color: #f9f9f9;
+  justify-content: center;
+}
+
+.orange_title {
+  font-weight: 700;
+  font-size: 18px;
+  color: #ff6f0f;
+  margin-bottom: 10px;
+}
+
+h1.bold_title {
+  font-size: 42px;
+  line-height: 57px;
+  margin-bottom: 10px;
+}
+
+.desc {
+  font-weight: 400;
+  font-size: 20px;
+  color: #7c7c7c;
+  line-height: 30px;
+}
+
+button.article_button {
+  height: 50px;
+  width: 150px;
+  margin-top: 1.5rem;
+  border: 0;
+  outline: 0;
+  border-radius: 10%;
+}
+
+.article_button p {
+  font-size: 15px;
+  line-height: 23.76px;
+  font-weight: 700;
+  padding: 0.5em;
+}
+
 .main-container {
   display: flex;
   flex-direction: row;
