@@ -2,3 +2,100 @@
   margin: 0;
   padding: 0;
 }
+header {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+#search {
+  background-color: #e9ecef;
+  box-sizing: border-box;
+  padding: 0.9rem 1.2rem;
+  border: none;
+  border-radius: 0.6rem;
+}
+.header1 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header2 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.menu {
+  margin: 15px;
+  color: var(--seed-scale-color-gray-700);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+}
+.pg5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #f6fdec;
+}
+#pic5 {
+  width: 50%;
+}
+#l5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex start;
+  justify-content: center;
+  margin-left: 200px;
+}
+
+#but1 {
+  display: block;
+  white-space: nowrap;
+  background-color: var(--seed-scale-color-gray-00);
+  color: var(--seed-scale-color-gray-900);
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  margin-left: 10px;
+}
+#but2 {
+  background-color: #e9ecef;
+  color: #212529;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  padding: 12px 2rem;
+  margin-right: 200px;
+  margin-bottom: 150px;
+}
+#but2text {
+  font-size: 18px;
+  line-height: 23.76px;
+  font-weight: 700;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+#orgtext {
+  font-weight: 700;
+  font-size: 18px;
+  color: #ff6f0f;
+  margin-bottom: 10px;
+}
+#p5t2 {
+  font-size: 42px;
+  line-height: 57px;
+  margin-bottom: 10px;
+}
+#p5t3 {
+  font-weight: 400;
+  font-size: 20px;
+  color: #7c7c7c;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
